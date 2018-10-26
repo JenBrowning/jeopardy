@@ -1,0 +1,15 @@
+section {
+    display: flex;
+    text-align: center;
+    background-color: blue;
+
+}
+
+article {
+    display: flex;
+    border: 3px solid black;
+    width: 125px;
+    height: 100px;
+    text-align: center;
+    font-family: fantasy;
+}
