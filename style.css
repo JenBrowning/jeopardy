@@ -1,15 +1,42 @@
-section {
+.newDiv {
     display: flex;
-    text-align: center;
-    background-color: blue;
-
+    justify-content: center;
 }
 
-article {
+span {
     display: flex;
-    border: 3px solid black;
-    width: 125px;
+    border: 3px solid rgb(41, 8, 163);
+    width: 100px;
     height: 100px;
+    background-color: white;
+    border-radius: 1px;
+}
+
+body {
+    color: rgb(26, 5, 146);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     text-align: center;
-    font-family: fantasy;
+}
+
+
+.row1 {
+    background-image: url("images/100.png")
+    
+}
+
+.row2 {
+    background-image: url("images/200.png")
+}
+
+.row3 {
+    background-image: url("images/300.png")
+}
+
+.row4 {
+    background-image: url("images/400.png")
+}
+
+.row5 {
+    background-image: url("images/500.png")
 }
